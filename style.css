@@ -259,12 +259,10 @@ td, th{
     }
 
     nav{
-        position: static;
+        position: static;      
     }
 
-
-
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos{
         width: auto;
     }
 
@@ -272,5 +270,32 @@ td, th{
         width: 100%;
         margin-bottom: 15px;
     }
+    .productos li{
+       display: block; 
+       width: auto;
+       margin: 20px auto;
+    }
 
+    .input-padron{
+        margin: 10px auto;
+        padding: 15px 15px;
+        width: 80%;
+    }
+
+    form > label{
+        text-align: center;
+    }
+    
+    fieldset{
+        margin: 1em 0 0 1em;
+    }
+
+    .enviar{
+        display: block;
+        margin: 10px auto;
+        padding: 15px 15px;
+        width: 80%;
+    }
+
+       
 }
